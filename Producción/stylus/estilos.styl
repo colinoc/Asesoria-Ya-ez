@@ -1,4 +1,138 @@
 @import "normalize.styl"
 
-h1
-	color green
+@font-face {
+    font-family: 'montserrathairline';
+    src: url('montserrat-hairline-webfont.eot');
+    src: url('montserrat-hairline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('montserrat-hairline-webfont.woff2') format('woff2'),
+         url('montserrat-hairline-webfont.woff') format('woff'),
+         url('montserrat-hairline-webfont.ttf') format('truetype'),
+         url('montserrat-hairline-webfont.svg#montserrathairline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('montserrat-light-webfont.eot');
+    src: url('montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('montserrat-light-webfont.woff2') format('woff2'),
+         url('montserrat-light-webfont.woff') format('woff'),
+         url('montserrat-light-webfont.ttf') format('truetype'),
+         url('montserrat-light-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+azul_oscuro = #3c496a
+gris = #958f77
+a 
+	text-decoration none	
+body
+	font-size 16px
+figure
+	margin 0
+	
+h2
+	color azul_oscuro
+	font-family "montserratlight", sans-serif;
+	font-weight normal
+	-webkit-margin-before 0
+	-webkit-margin-after 0
+
+
+.menu
+	display none
+	
+.header
+	height 6.25em
+	border-color azul_oscuro		
+	border-bottom-style solid	
+	border-width 1px		
+	box-shadow 0 4px 6px -6px azul_oscuro
+	
+	.logo
+		width 100%
+		.image
+			display block
+			text-align center
+
+.foto_carrousel
+	
+	.image
+		
+		img
+			max-height 100%
+			max-width 100%
+			border-color azul_oscuro
+			border-bottom-style solid
+			border-width 1px
+			box-shadow 0 4px 6px -6px azul_oscuro
+		
+	
+.contenedor_menu
+	border-bottom-style solid
+	border-width 1px
+	border-color gris
+	box-shadow 0 4px 10px -6px gris
+	position relative
+	padding 0 0 0 0
+	width 100%
+	height 2.5em
+	text-align center
+	
+	
+	h2
+		margin-top 0.8em
+		
+		font-size 24px
+
+.quisom
+	h2
+		font-family "montserrathairline", sans-serif;
+		margin-top 0.5em
+.Serveis
+	.title
+		display none
+	.contenedor_menu
+		text-align left 
+		border-color #958f77
+		height 2.8em
+		.boton_servei
+			margin-left 1.8em
+			margin-top auto
+			margin-bottom auto
+			img
+				display none
+	
+	figure
+		display none
+		
+footer
+	padding-top 1em
+	background-color azul
+	
+	p 
+		font-family "montserratlight", sans-serif;
+		font-size 13px
+		background-color azul
+		
+	.contacte
+		background-color gris
+		border-radius 3px
+		margin 0 8em 0 8em 
+		padding 0.3em 0 0.3em 0
+		text-align center
+		font-weight 100
+		a
+			color white
+	.dades
+		text-align center
+		background azul
+
+
+
+
+
